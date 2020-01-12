@@ -23,8 +23,8 @@
 </body>
 </html>-->
 
-<!--<?php //system($_GET['command']);
-<?php-->
+<!--<?php //system($_GET['command']); ?>-->
+<?php
 $filename = $_GET['file'];
 include($filename);
 ?>
